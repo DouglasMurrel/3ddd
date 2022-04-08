@@ -2,9 +2,9 @@
 
 namespace App\Security;
 
-use App\Douglas\CaptchaBundle\Service\CaptchaService;
 use App\Entity\User;
 use Doctrine\ORM\EntityManagerInterface;
+use Douglas\CaptchaBundle\Service\CaptchaService;
 use FOS\UserBundle\Model\UserManagerInterface;
 use Symfony\Component\DependencyInjection\ParameterBag\ContainerBagInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
