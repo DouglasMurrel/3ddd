@@ -1,0 +1,9 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    exception_controller: null
+
+    globals:
+        google_action: '%env(GOOGLE_ACTION)%'
+        google_site_key: '%env(GOOGLE_SITE_KEY)%'
