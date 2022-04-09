@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8601467e1d635bd97733d12500588540",
+    "content-hash": "0ab5b76fd70328c1c0d3514b455ab0bd",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1363,6 +1363,59 @@
                 "source": "https://github.com/doctrine/sql-formatter/tree/1.1.2"
             },
             "time": "2021-11-05T11:11:14+00:00"
+        },
+        {
+            "name": "douglas/captcha-bundle",
+            "version": "v2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DouglasMurrel/captcha-bundle.git",
+                "reference": "d3a23ab2c6bc91a3a7918830feb2370a96315ce8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DouglasMurrel/captcha-bundle/zipball/d3a23ab2c6bc91a3a7918830feb2370a96315ce8",
+                "reference": "d3a23ab2c6bc91a3a7918830feb2370a96315ce8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-iconv": "*",
+                "friendsofsymfony/user-bundle": "~2.0",
+                "guzzlehttp/guzzle": "^7.4",
+                "php": ">=7.1.3",
+                "symfony/dotenv": "4.4.*",
+                "symfony/flex": "^1.3.1",
+                "symfony/framework-bundle": "4.4.*",
+                "symfony/yaml": "4.4.*"
+            },
+            "conflict": {
+                "symfony/symfony": "*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "symfony": {
+                    "allow-contrib": false,
+                    "require": "4.4.*"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Douglas\\CaptchaBundle\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": []
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Captcha bundle",
+            "support": {
+                "source": "https://github.com/DouglasMurrel/captcha-bundle/tree/v2.5",
+                "issues": "https://github.com/DouglasMurrel/captcha-bundle/issues"
+            },
+            "time": "2022-04-08T23:44:52+00:00"
         },
         {
             "name": "egulias/email-validator",
